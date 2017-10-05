@@ -1,6 +1,6 @@
 #### Count the number of big and small letters in the string
 
-#1. long variant
+#1. slow variant
 ```python
 def func(word):
   small = 0
