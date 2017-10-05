@@ -38,7 +38,7 @@ func(in_word)
 ```
 
 #3 one more fast variant 
-'''python
+```python
 def func(word):
   small, big = 0, 0
   for letter in word:
@@ -52,4 +52,4 @@ def func(word):
 
 in_word = input('Enter your word or string: ')
 func(in_word) 
-'''
+```
