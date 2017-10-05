@@ -36,3 +36,20 @@ def func(word):
 in_word = input('Enter your word: ')
 func(in_word) 
 ```
+
+#3 one more fast variant 
+'''python
+def func(word):
+  small, big = 0, 0
+  for letter in word:
+    if letter.islower():
+      small +=1
+    elif letter.isupper():
+      big += 1
+  print ('small:', small)
+  print ('big:', big)
+  return word
+
+in_word = input('Enter your word or string: ')
+func(in_word) 
+'''
