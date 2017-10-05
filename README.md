@@ -26,7 +26,6 @@ def func(word):
   big = 0
   for letter in word:
     if 'a' <= letter <= 'z':
-    #if letter.islower
       small +=1
     if 'A' <= letter <= 'Z':
       big += 1
